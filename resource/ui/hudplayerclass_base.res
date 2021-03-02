@@ -18,17 +18,13 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"25"	[$WIN32]
-		"xpos_minmode"	"15"	[$WIN32]
-		"ypos"			"r88"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
+		"xpos"			"65"	[$WIN32]
+		"ypos"			"r140"	[$WIN32]
 		"xpos"			"57"	[$X360]
 		"ypos"			"r110"	[$X360]
 		"zpos"			"2"
-		"wide"			"175"  //75
-		"wide_minmode"	"37"
-		"tall"			"175"  //75
-		"tall_minmode"	"37"
+		"wide"			"125"  //75
+		"tall"			"125"  //75
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
@@ -104,9 +100,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"-1"		[$WIN32]
-		"xpos_minmode"	"-15"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
@@ -127,15 +121,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"10"	[$WIN32]
-		"xpos_minmode"	"0"	[$WIN32]
-		"ypos"			"r214"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
+		"xpos"			"6"	[$WIN32]
+		"ypos"			"r293"	[$WIN32]
 		"zpos"			"2"		
-		"wide"			"100"
-		"wide_minmode"	"52"
-		"tall"			"200"
-		"tall_minmode"	"102"
+		"wide"			"200"
+		"tall"			"300"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -222,63 +212,63 @@
 			}
 			"Scout"
 			{
-				"fov"			"27"
-				"angles_x"		"0"
-				"angles_y"		"270"
-				"angles_z"		"-10"
-				"origin_x"		"105"
-				"origin_y"		"15"
-				"origin_z"		"-47"
-			}
-			"Sniper"
-			{
-				"fov"			"30"
-				"angles_x"		"-2"
-				"angles_y"		"270"
-				"angles_z"		"0"
-				"origin_x"		"130"
-				"origin_y"		"15"
-				"origin_z"		"-47"	//-67
-			}
-			"Soldier"
-			{
-				"fov"			"27"
-				"angles_x"		"0"
-				"angles_y"		"260"
-				"angles_z"		"0"
-				"origin_x"		"150"
-				"origin_y"		"24"
-				"origin_z"		"-52"
-			}
-			"Demoman"
-			{
-				"fov"			"28"
-				"angles_x"		"0"
-				"angles_y"		"270"
-				"angles_z"		"0"
-				"origin_x"		"138"
-				"origin_y"		"20"
-				"origin_z"		"-55"
-			}
-			"Medic"
-			{
-				"fov"			"22"
-				"angles_x"		"6"
-				"angles_y"		"270"
-				"angles_z"		"0"
-				"origin_x"		"150"
-				"origin_y"		"15"
-				"origin_z"		"-57"
-			}
-			"Heavy"
-			{
 				"fov"			"20"
 				"angles_x"		"0"
 				"angles_y"		"270"
 				"angles_z"		"0"
-				"origin_x"		"200"
+				"origin_x"		"250"
+				"origin_y"		"10"
+				"origin_z"		"-50"
+			}
+			"Sniper"
+			{
+				"fov"			"23"
+				"angles_x"		"0"
+				"angles_y"		"270"
+				"angles_z"		"0"
+				"origin_x"		"260"
 				"origin_y"		"15"
-				"origin_z"		"-55"
+				"origin_z"		"-60"
+			}
+			"Soldier"
+			{
+				"fov"			"23"
+				"angles_x"		"0"
+				"angles_y"		"270"
+				"angles_z"		"0"
+				"origin_x"		"260"
+				"origin_y"		"15"
+				"origin_z"		"-60"
+			}
+			"Demoman"
+			{
+				"fov"			"23"
+				"angles_x"		"0"
+				"angles_y"		"270"
+				"angles_z"		"0"
+				"origin_x"		"260"
+				"origin_y"		"15"
+				"origin_z"		"-60"
+			}
+			"Medic"
+			{
+				"fov"			"23"
+				"angles_x"		"0"
+				"angles_y"		"270"
+				"angles_z"		"0"
+				"origin_x"		"260"
+				"origin_y"		"15"
+				"origin_z"		"-60"
+			}
+			"Heavy"
+			{
+				"fov"			"23"
+				"angles_x"		"0"
+				"angles_y"		"270"
+				"angles_z"		"0"
+				"origin_x"		"260"
+				"origin_y"		"15"
+				"origin_z"		"-60"
 			}
 			"Pyro"
 			{
@@ -286,9 +276,9 @@
 				"angles_x"		"0"
 				"angles_y"		"270"
 				"angles_z"		"0"
-				"origin_x"		"175"
-				"origin_y"		"22"
-				"origin_z"		"-50"
+				"origin_x"		"260"
+				"origin_y"		"15"
+				"origin_z"		"-60"
 			}
 			"Spy"
 			{
@@ -296,7 +286,7 @@
 				"angles_x"		"0"
 				"angles_y"		"270"
 				"angles_z"		"0"
-				"origin_x"		"160"
+				"origin_x"		"260"
 				"origin_y"		"15"
 				"origin_z"		"-60"
 			}
@@ -306,9 +296,9 @@
 				"angles_x"		"0"
 				"angles_y"		"270"
 				"angles_z"		"0"
-				"origin_x"		"160"
+				"origin_x"		"260"
 				"origin_y"		"15"
-				"origin_z"		"-52"
+				"origin_z"		"-60"
 			}
 		}
 	}
