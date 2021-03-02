@@ -1,7 +1,5 @@
 # Trog hud
-
 ---
-
 Hello, this is a frankenstien's monster based on Hypnotize hud with bits of Wool hud(Unofficial), ciba hud and stabby hud.
 
 ## Links
