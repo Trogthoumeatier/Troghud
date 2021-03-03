@@ -16,7 +16,13 @@ Scheme
 		//=============================================================================
 		// INGAME COLORS
 		//=============================================================================
-
+		
+		"White"				"255 255 255 255"
+		"UberLabel"			"255 0 100 255" 		//Uber ready color %
+		"UberMeter"			"255 0 100 255" 		//Uber ready color for meter	
+		"UberLabelFlash"		"80 0 30 255"			//Uber ready flash color %
+		"UberMeterFlash"		"80 0 30 100"			//Uber ready flash color meter	
+		
 		"Crosshair"											"227 228 230 255"
 		"Crosshair Pulse"									"255 0 0 255"
 		
