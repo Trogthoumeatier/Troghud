@@ -1672,7 +1672,7 @@
 		"labelText"									"2"
 		"font"										"Symbols 22"
 		"textAlignment"								"center"
-		"urlText"									"https://github.com/Hypnootize/Hypnotize-Hud"
+		"urlText"									"https://github.com/Trogthoumeatier/Troghud"
 		"FgColor_override" 							"WhiteGray"
 		"pin_to_sibling" 							"BottomBar"
 	}
