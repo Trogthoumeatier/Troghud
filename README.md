@@ -1,4 +1,4 @@
-![troghud](https://imgur.com/QyAwSVA.png)
+![Logo](https://imgur.com/a/QyAwSVA.png)
 
 # Trog hud
 
