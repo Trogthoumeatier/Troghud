@@ -1,0 +1,56 @@
+//====================================================================================================================
+
+event HudMedicCharged
+{
+	Animate ChargeMeter 						FgColor 	"Full Ubercharge" 					Linear 	0.0 	0.075
+	Animate ChargeMeter 						FgColor 	"Full Ubercharge Pulse" 			Linear 	0.125 	0.075
+	
+	RunEvent HudMedicChargedLoop				0.7
+}
+
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 					0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 					0.0
+	StopEvent HudMedicChargedLoop 				0.0
+	
+	Animate	ChargeMeter 						FgColor		"Full Ubercharge Pulse"				Linear 	0.0 0.0001
+}
+
+//event HudMedicCharged
+//{
+//	Animate	ChargeLabel 	        FgColor		"UberLabel"		Linear 0.0 0.1
+//	Animate	ChargeLabel 	        FgColor		"UberLabelFlash"		        Linear 0.3 0.4
+//
+//	Animate	ChargeMeter 	        FgColor		"UberMeter"		Linear 0.0 0.1
+//	Animate	ChargeMeter 	        FgColor		"UberMeterFlash"		        Linear 0.3 0.4
+//
+//	RunEvent HudMedicChargedLoop	0.6
+//}
+
+//call to loop HudHealthBonusPulse
+// event HudMedicChargedLoop
+// {
+	// RunEvent HudMedicCharged 0.0
+	// RunEvent ChargeLabel 0.0
+	// RunEvent ChargeMeter 0.0
+// }
+
+// event HudMedicChargedStop
+// {
+	// StopEvent HudMedicCharged 0.0
+	// StopEvent HudMedicChargedLoop 0.0
+	// StopEvent ChargeLabel 0.0
+	// StopEvent ChargeMeter 0.0
+
+	// Animate	ChargeLabel 	        FgColor		"White"		Linear 0.0 0.0001
+
+	// Animate	ChargeMeter 	        FgColor		"White"		Linear 0.0 0.0001
+// }
+
+
+//====================================================================================================================
