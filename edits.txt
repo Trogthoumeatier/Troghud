@@ -1,0 +1,24 @@
+Edits:
+
+	First of all, 90% of this hud is hypnotize hud, the rest is parts from other huds listed in the README.md file and my own edits.
+	
+	General changes:
+		
+		I made the player model thing in the corner bigger same with the class image.
+		I made the background image of the menu when you first start up the game a picture of space.
+		Changed the text on the menu to le epik meems.
+		Made the health / overheall cross thing visible. (from stabby hud)
+		Took the loadout screen from ciba hud.
+	
+	Specific changes:
+		
+		Medic:
+			
+			Took the uber bar at the bottom of the screen from woolhud.
+			
+		Spy:
+		
+			Made the disguise thing that pops up on your screen when you disguise visible.
+			Made the smaller image of the spy when you disguise with the player class model thing turned off bigger.
+			
+(If it's not mentioned here it's most likely from Hypnotize HUD)
