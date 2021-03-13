@@ -9,6 +9,8 @@ Edits:
 		Changed the text on the menu to le epik meems.
 		Made the health / overheall cross thing visible. (from stabby hud)
 		Took the loadout screen from ciba hud.
+		Moved the killstreak counter to  under the health.
+		Moved the kill counter thing (such as heads on demoknight) to under the effect meter.
 	
 	Specific changes:
 		
